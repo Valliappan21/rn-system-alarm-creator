@@ -11,12 +11,10 @@
     "src",
     "lib",
     "android",
-    "ios",
     "cpp",
     "rn-system-alarm-creator.podspec",
     "!lib/typescript/example",
     "!android/build",
-    "!ios/build",
     "!**/__tests__",
     "!**/__fixtures__",
     "!**/__mocks__"
@@ -32,7 +30,6 @@
   },
   "keywords": [
     "react-native",
-    "ios",
     "android"
   ],
   "repository": "https://github.com/Valliappan21/rn-system-alarm-creator",

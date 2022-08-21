@@ -26,11 +26,6 @@ To run the example app on Android:
 yarn example android
 ```
 
-To run the example app on iOS:
-
-```sh
-yarn example ios
-```
 
 
 Make sure your code passes TypeScript and ESLint. Run the following to verify:
@@ -93,9 +88,6 @@ The `package.json` file contains various scripts for common tasks:
 - `yarn typescript`: type-check files with TypeScript.
 - `yarn lint`: lint files with ESLint.
 - `yarn test`: run unit tests with Jest.
-- `yarn example start`: start the Metro server for the example app.
-- `yarn example android`: run the example app on Android.
-- `yarn example ios`: run the example app on iOS.
 
 ### Sending a pull request
 
