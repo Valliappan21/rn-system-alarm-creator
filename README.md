@@ -3,7 +3,7 @@ add alarm to system alarm
 ## Installation
 
 ```sh
-npm install rn-system-alarm-creator
+npm install https://github.com/Valliappan21/rn-system-alarm-creator
 ```
 
 ## Usage
