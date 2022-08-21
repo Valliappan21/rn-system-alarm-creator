@@ -15,6 +15,6 @@ const RnSystemAlarmCreator = NativeModules.RnSystemAlarmCreator  ? NativeModules
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return RnSystemAlarmCreator.multiply(a, b);
+export function setAlarm(hours: number, mins: number, name: string): Promise<number> {
+  return RnSystemAlarmCreator.setAlarm(hours, mins,name);
 }
