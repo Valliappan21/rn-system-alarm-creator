@@ -9,11 +9,11 @@ npm install rn-system-alarm-creator
 ## Usage
 
 ```js
-import { multiply } from "rn-system-alarm-creator";
+import { setAlarm } from "rn-system-alarm-creator";
 
 // ...
-
-const result = await multiply(3, 7);
+//setAlarm(HH, mm, alarm name);
+setAlarm(22, 10,'my alarm');
 ```
 
 ## Contributing
