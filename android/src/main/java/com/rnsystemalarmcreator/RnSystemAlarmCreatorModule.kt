@@ -21,7 +21,7 @@ class RnSystemAlarmCreatorModule(reactContext: ReactApplicationContext) :
         i.putExtra("android.intent.extra.alarm.MINUTES", mins)
         i.putExtra("android.intent.extra.alarm.MESSAGE", name)
         i.putExtra("android.intent.extra.alarm.SKIP_UI", true)
+        i.flags=Intent.FLAG_ACTIVITY_NEW_TASK
         reactApplicationContext.startActivity(i)
-
     }
 }
