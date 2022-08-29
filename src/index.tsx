@@ -15,6 +15,6 @@ const RnSystemAlarmCreator = NativeModules.RnSystemAlarmCreator  ? NativeModules
       }
     );
 
-export function setAlarm(hours: number, mins: number, name: string) {
-  RnSystemAlarmCreator.setAlarm(hours, mins,name);
+export function setAlarm(data:object) {
+  RnSystemAlarmCreator.setAlarm(data);
 }
